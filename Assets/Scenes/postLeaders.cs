@@ -8,7 +8,7 @@ using System.Text;
 
 public class postLeaders : MonoBehaviour
 {
-    private const string URL = "http://localhost:3000/api";
+    private const string URL = "https://leaderboardsausagevoid.herokuapp.com/api";
 
     async System.Threading.Tasks.Task Start()
     {
